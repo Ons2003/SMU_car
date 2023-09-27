@@ -1,0 +1,558 @@
+[0.000000] (-) TimerEvent: {}
+[0.003795] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.004084] (test_node) JobQueued: {'identifier': 'test_node', 'dependencies': OrderedDict()}
+[0.004184] (ydlidar) JobQueued: {'identifier': 'ydlidar', 'dependencies': OrderedDict()}
+[0.020182] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.097865] (-) TimerEvent: {}
+[0.148868] (test_node) JobStarted: {'identifier': 'test_node'}
+[0.198829] (-) TimerEvent: {}
+[0.232333] (ydlidar) JobStarted: {'identifier': 'ydlidar'}
+[0.307217] (-) TimerEvent: {}
+[0.308685] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.310511] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.325144] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ons/ros2_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/ons/ros2_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ons'), ('LC_TIME', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR', '/home/ons/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ons'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/ons/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/140/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ons/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/140/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ons'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ons'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ons-IdeaPad-Flex-5-14IIL05:@/tmp/.ICE-unix/1589,unix/ons-IdeaPad-Flex-5-14IIL05:/tmp/.ICE-unix/1589'), ('GTK_EXE_PREFIX', '/snap/code/140/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2ab226d_45b8_4838_bb69_94dbdf7e091a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/140/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YYURB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-37f1354377.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ons/snap/code/140/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ons/ros2_ws/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ons/snap/code/140/.local/share:/home/ons/snap/code/140:/snap/code/140/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.407330] (-) TimerEvent: {}
+[0.523428] (-) TimerEvent: {}
+[0.639461] (-) TimerEvent: {}
+[0.744399] (-) TimerEvent: {}
+[0.851449] (-) TimerEvent: {}
+[0.958931] (-) TimerEvent: {}
+[1.061135] (-) TimerEvent: {}
+[1.167004] (-) TimerEvent: {}
+[1.268986] (-) TimerEvent: {}
+[1.369916] (-) TimerEvent: {}
+[1.471860] (-) TimerEvent: {}
+[1.576260] (-) TimerEvent: {}
+[1.680028] (-) TimerEvent: {}
+[1.781862] (-) TimerEvent: {}
+[1.887284] (-) TimerEvent: {}
+[1.994578] (-) TimerEvent: {}
+[2.095232] (-) TimerEvent: {}
+[2.196278] (-) TimerEvent: {}
+[2.301713] (-) TimerEvent: {}
+[2.408200] (-) TimerEvent: {}
+[2.509916] (-) TimerEvent: {}
+[2.617484] (-) TimerEvent: {}
+[2.737700] (-) TimerEvent: {}
+[2.844643] (-) TimerEvent: {}
+[2.953413] (-) TimerEvent: {}
+[3.059513] (-) TimerEvent: {}
+[3.169064] (-) TimerEvent: {}
+[3.280544] (-) TimerEvent: {}
+[3.394552] (-) TimerEvent: {}
+[3.445087] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'cmake'}
+[3.462626] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'build'}
+[3.462754] (ydlidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ons/ros2_ws/build/ydlidar', '--', '-j4', '-l4'], 'cwd': '/home/ons/ros2_ws/build/ydlidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ons'), ('LC_TIME', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR', '/home/ons/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ons'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/ons/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/140/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ons/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/140/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ons'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ons'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ons-IdeaPad-Flex-5-14IIL05:@/tmp/.ICE-unix/1589,unix/ons-IdeaPad-Flex-5-14IIL05:/tmp/.ICE-unix/1589'), ('GTK_EXE_PREFIX', '/snap/code/140/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2ab226d_45b8_4838_bb69_94dbdf7e091a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/140/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YYURB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-37f1354377.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ons/snap/code/140/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ons/ros2_ws/build/ydlidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ons/snap/code/140/.local/share:/home/ons/snap/code/140:/snap/code/140/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.489194] (articubot_one) CommandEnded: {'returncode': 0}
+[3.496428] (-) TimerEvent: {}
+[3.600660] (-) TimerEvent: {}
+[3.708730] (-) TimerEvent: {}
+[3.811322] (-) TimerEvent: {}
+[3.895322] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[3.913471] (-) TimerEvent: {}
+[4.011286] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ons/ros2_ws/build/articubot_one'], 'cwd': '/home/ons/ros2_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ons'), ('LC_TIME', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR', '/home/ons/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ons'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/ons/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/140/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ons/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/140/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ons'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ons'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ons-IdeaPad-Flex-5-14IIL05:@/tmp/.ICE-unix/1589,unix/ons-IdeaPad-Flex-5-14IIL05:/tmp/.ICE-unix/1589'), ('GTK_EXE_PREFIX', '/snap/code/140/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2ab226d_45b8_4838_bb69_94dbdf7e091a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/140/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YYURB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-37f1354377.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ons/snap/code/140/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ons/ros2_ws/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ons/snap/code/140/.local/share:/home/ons/snap/code/140:/snap/code/140/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.014085] (-) TimerEvent: {}
+[4.118428] (-) TimerEvent: {}
+[4.138423] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.150911] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.161365] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[4.163390] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[4.167371] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[4.169452] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[4.182194] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[4.182619] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[4.182807] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[4.182972] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[4.183155] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[4.186023] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[4.196563] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[4.205170] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[4.205764] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[4.206021] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[4.206253] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[4.211214] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[4.214980] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[4.216563] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[4.218285] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[4.218851] (-) TimerEvent: {}
+[4.219312] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[4.219710] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[4.220822] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[4.221151] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[4.224513] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[4.224877] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[4.233279] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[4.234054] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[4.236027] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[4.260025] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[4.263873] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[4.275477] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[4.291115] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[4.292050] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[4.297018] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[4.297273] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[4.308553] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[4.310063] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[4.314974] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[4.322825] (-) TimerEvent: {}
+[4.324077] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[4.326535] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[4.328147] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[4.341953] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[4.342562] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[4.353545] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[4.357176] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[4.360548] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[4.423258] (-) TimerEvent: {}
+[4.462648] (ydlidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_node\x1b[0m\n'}
+[4.486731] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[4.487210] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[4.487491] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[4.487902] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[4.518385] (articubot_one) CommandEnded: {'returncode': 0}
+[4.528583] (-) TimerEvent: {}
+[4.629379] (-) TimerEvent: {}
+[4.731503] (-) TimerEvent: {}
+[4.842646] (-) TimerEvent: {}
+[4.949505] (-) TimerEvent: {}
+[5.040254] (ydlidar) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o\x1b[0m\n'}
+[5.062387] (-) TimerEvent: {}
+[5.164845] (-) TimerEvent: {}
+[5.273442] (-) TimerEvent: {}
+[5.377162] (-) TimerEvent: {}
+[5.478136] (-) TimerEvent: {}
+[5.495601] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[5.585072] (-) TimerEvent: {}
+[5.686329] (-) TimerEvent: {}
+[5.793358] (-) TimerEvent: {}
+[5.894478] (-) TimerEvent: {}
+[5.998738] (-) TimerEvent: {}
+[6.102240] (-) TimerEvent: {}
+[6.208209] (-) TimerEvent: {}
+[6.312676] (-) TimerEvent: {}
+[6.416932] (-) TimerEvent: {}
+[6.525447] (-) TimerEvent: {}
+[6.627943] (-) TimerEvent: {}
+[6.728816] (-) TimerEvent: {}
+[6.833791] (-) TimerEvent: {}
+[6.934912] (-) TimerEvent: {}
+[7.037302] (-) TimerEvent: {}
+[7.142799] (-) TimerEvent: {}
+[7.243636] (-) TimerEvent: {}
+[7.345066] (-) TimerEvent: {}
+[7.447350] (-) TimerEvent: {}
+[7.548253] (-) TimerEvent: {}
+[7.649008] (-) TimerEvent: {}
+[7.751209] (-) TimerEvent: {}
+[7.854257] (-) TimerEvent: {}
+[7.957649] (-) TimerEvent: {}
+[8.060941] (-) TimerEvent: {}
+[8.168980] (-) TimerEvent: {}
+[8.271284] (-) TimerEvent: {}
+[8.373288] (-) TimerEvent: {}
+[8.473764] (-) TimerEvent: {}
+[8.574900] (-) TimerEvent: {}
+[8.682081] (-) TimerEvent: {}
+[8.793756] (-) TimerEvent: {}
+[8.896036] (-) TimerEvent: {}
+[8.999448] (-) TimerEvent: {}
+[9.101488] (-) TimerEvent: {}
+[9.206517] (-) TimerEvent: {}
+[9.308742] (-) TimerEvent: {}
+[9.414501] (-) TimerEvent: {}
+[9.523852] (-) TimerEvent: {}
+[9.629029] (-) TimerEvent: {}
+[9.736675] (-) TimerEvent: {}
+[9.844497] (-) TimerEvent: {}
+[9.969186] (test_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/test_node', 'build', '--build-base', '/home/ons/ros2_ws/build/test_node/build', 'install', '--record', '/home/ons/ros2_ws/build/test_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/ons/ros2_ws/src/test_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ons', 'LC_TIME': 'ar_TN.UTF-8', 'GIO_MODULE_DIR': '/home/ons/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ons', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/ons/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.82.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/140/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/ons/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_TN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/140/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1613', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ons', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'ons', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ons-IdeaPad-Flex-5-14IIL05:@/tmp/.ICE-unix/1589,unix/ons-IdeaPad-Flex-5-14IIL05:/tmp/.ICE-unix/1589', 'GTK_EXE_PREFIX': '/snap/code/140/usr', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a2ab226d_45b8_4838_bb69_94dbdf7e091a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/140/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YYURB2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-37f1354377.sock', 'GNOME_TERMINAL_SERVICE': ':1.95', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/ons/snap/code/140/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ons/ros2_ws/build/test_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/ons/snap/code/140/.local/share:/home/ons/snap/code/140:/snap/code/140/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ons/ros2_ws/build/test_node/prefix_override:/home/ons/ros2_ws/install/test_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.987477] (-) TimerEvent: {}
+[10.088468] (-) TimerEvent: {}
+[10.220935] (-) TimerEvent: {}
+[10.323923] (-) TimerEvent: {}
+[10.426807] (-) TimerEvent: {}
+[10.537305] (-) TimerEvent: {}
+[10.639031] (-) TimerEvent: {}
+[10.740738] (-) TimerEvent: {}
+[10.843978] (-) TimerEvent: {}
+[10.952829] (-) TimerEvent: {}
+[11.053661] (-) TimerEvent: {}
+[11.155802] (-) TimerEvent: {}
+[11.260976] (-) TimerEvent: {}
+[11.376892] (-) TimerEvent: {}
+[11.482902] (-) TimerEvent: {}
+[11.583461] (-) TimerEvent: {}
+[11.684866] (-) TimerEvent: {}
+[11.787859] (-) TimerEvent: {}
+[11.890432] (-) TimerEvent: {}
+[12.008912] (-) TimerEvent: {}
+[12.115268] (-) TimerEvent: {}
+[12.221052] (-) TimerEvent: {}
+[12.321484] (-) TimerEvent: {}
+[12.423755] (-) TimerEvent: {}
+[12.537524] (-) TimerEvent: {}
+[12.645103] (-) TimerEvent: {}
+[12.748511] (-) TimerEvent: {}
+[12.849137] (-) TimerEvent: {}
+[12.952180] (-) TimerEvent: {}
+[13.054869] (-) TimerEvent: {}
+[13.155713] (-) TimerEvent: {}
+[13.259219] (-) TimerEvent: {}
+[13.371929] (-) TimerEvent: {}
+[13.444544] (test_node) StdoutLine: {'line': b'running egg_info\n'}
+[13.468590] (test_node) StdoutLine: {'line': b'writing ../../build/test_node/test_node.egg-info/PKG-INFO\n'}
+[13.480013] (-) TimerEvent: {}
+[13.481158] (test_node) StdoutLine: {'line': b'writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt\n'}
+[13.483777] (test_node) StdoutLine: {'line': b'writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt\n'}
+[13.485206] (test_node) StdoutLine: {'line': b'writing requirements to ../../build/test_node/test_node.egg-info/requires.txt\n'}
+[13.485504] (test_node) StdoutLine: {'line': b'writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt\n'}
+[13.527030] (test_node) StdoutLine: {'line': b"reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'\n"}
+[13.529357] (test_node) StdoutLine: {'line': b"writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'\n"}
+[13.546111] (test_node) StdoutLine: {'line': b'running build\n'}
+[13.548467] (test_node) StdoutLine: {'line': b'running build_py\n'}
+[13.563175] (test_node) StdoutLine: {'line': b'running install\n'}
+[13.580660] (test_node) StdoutLine: {'line': b'running install_lib\n'}
+[13.581200] (-) TimerEvent: {}
+[13.582098] (test_node) StdoutLine: {'line': b'running install_data\n'}
+[13.582353] (test_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.582547] (test_node) StdoutLine: {'line': b"removing '/home/ons/ros2_ws/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.582720] (test_node) StdoutLine: {'line': b'Copying ../../build/test_node/test_node.egg-info to /home/ons/ros2_ws/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info\n'}
+[13.593210] (test_node) StdoutLine: {'line': b'running install_scripts\n'}
+[13.681883] (-) TimerEvent: {}
+[13.783055] (-) TimerEvent: {}
+[13.838351] (test_node) StdoutLine: {'line': b'Installing main_node script to /home/ons/ros2_ws/install/test_node/lib/test_node\n'}
+[13.840634] (test_node) StdoutLine: {'line': b"writing list of installed files to '/home/ons/ros2_ws/build/test_node/install.log'\n"}
+[13.884018] (-) TimerEvent: {}
+[13.991746] (-) TimerEvent: {}
+[14.094419] (-) TimerEvent: {}
+[14.197485] (-) TimerEvent: {}
+[14.213470] (test_node) CommandEnded: {'returncode': 0}
+[14.300591] (-) TimerEvent: {}
+[14.334241] (test_node) JobEnded: {'identifier': 'test_node', 'rc': 0}
+[14.402060] (-) TimerEvent: {}
+[14.504411] (-) TimerEvent: {}
+[14.604911] (-) TimerEvent: {}
+[14.709168] (-) TimerEvent: {}
+[14.816897] (-) TimerEvent: {}
+[14.918864] (-) TimerEvent: {}
+[15.021229] (-) TimerEvent: {}
+[15.127664] (-) TimerEvent: {}
+[15.229268] (-) TimerEvent: {}
+[15.332958] (-) TimerEvent: {}
+[15.437087] (-) TimerEvent: {}
+[15.538965] (-) TimerEvent: {}
+[15.642811] (-) TimerEvent: {}
+[15.749662] (-) TimerEvent: {}
+[15.850419] (-) TimerEvent: {}
+[15.951758] (-) TimerEvent: {}
+[16.053437] (-) TimerEvent: {}
+[16.154417] (-) TimerEvent: {}
+[16.256937] (-) TimerEvent: {}
+[16.359214] (-) TimerEvent: {}
+[16.460471] (-) TimerEvent: {}
+[16.562428] (-) TimerEvent: {}
+[16.663476] (-) TimerEvent: {}
+[16.772931] (-) TimerEvent: {}
+[16.875429] (-) TimerEvent: {}
+[16.976105] (-) TimerEvent: {}
+[17.078632] (-) TimerEvent: {}
+[17.181232] (-) TimerEvent: {}
+[17.283808] (-) TimerEvent: {}
+[17.388089] (-) TimerEvent: {}
+[17.489721] (-) TimerEvent: {}
+[17.592810] (-) TimerEvent: {}
+[17.703552] (-) TimerEvent: {}
+[17.804429] (-) TimerEvent: {}
+[17.906338] (-) TimerEvent: {}
+[18.015926] (-) TimerEvent: {}
+[18.125885] (-) TimerEvent: {}
+[18.230060] (-) TimerEvent: {}
+[18.332443] (-) TimerEvent: {}
+[18.434172] (-) TimerEvent: {}
+[18.536383] (-) TimerEvent: {}
+[18.644079] (-) TimerEvent: {}
+[18.752340] (-) TimerEvent: {}
+[18.861094] (-) TimerEvent: {}
+[18.962867] (-) TimerEvent: {}
+[19.069286] (-) TimerEvent: {}
+[19.180508] (-) TimerEvent: {}
+[19.282473] (-) TimerEvent: {}
+[19.387751] (-) TimerEvent: {}
+[19.490967] (-) TimerEvent: {}
+[19.591921] (-) TimerEvent: {}
+[19.693289] (-) TimerEvent: {}
+[19.795437] (-) TimerEvent: {}
+[19.897529] (-) TimerEvent: {}
+[20.001740] (-) TimerEvent: {}
+[20.104613] (-) TimerEvent: {}
+[20.209747] (-) TimerEvent: {}
+[20.312616] (-) TimerEvent: {}
+[20.418538] (-) TimerEvent: {}
+[20.520909] (-) TimerEvent: {}
+[20.626394] (-) TimerEvent: {}
+[20.734842] (-) TimerEvent: {}
+[20.839066] (-) TimerEvent: {}
+[20.943188] (-) TimerEvent: {}
+[21.044902] (-) TimerEvent: {}
+[21.145486] (-) TimerEvent: {}
+[21.246382] (-) TimerEvent: {}
+[21.347994] (-) TimerEvent: {}
+[21.450019] (-) TimerEvent: {}
+[21.553887] (-) TimerEvent: {}
+[21.657535] (-) TimerEvent: {}
+[21.761191] (-) TimerEvent: {}
+[21.876805] (-) TimerEvent: {}
+[21.977481] (-) TimerEvent: {}
+[22.079885] (-) TimerEvent: {}
+[22.181624] (-) TimerEvent: {}
+[22.283189] (-) TimerEvent: {}
+[22.385857] (-) TimerEvent: {}
+[22.487783] (-) TimerEvent: {}
+[22.596501] (-) TimerEvent: {}
+[22.698374] (-) TimerEvent: {}
+[22.803591] (-) TimerEvent: {}
+[22.907617] (-) TimerEvent: {}
+[23.008582] (-) TimerEvent: {}
+[23.110781] (-) TimerEvent: {}
+[23.217140] (-) TimerEvent: {}
+[23.318989] (-) TimerEvent: {}
+[23.427897] (-) TimerEvent: {}
+[23.529741] (-) TimerEvent: {}
+[23.633629] (-) TimerEvent: {}
+[23.743630] (-) TimerEvent: {}
+[23.846141] (-) TimerEvent: {}
+[23.952765] (-) TimerEvent: {}
+[24.057382] (-) TimerEvent: {}
+[24.164299] (-) TimerEvent: {}
+[24.266318] (-) TimerEvent: {}
+[24.377454] (-) TimerEvent: {}
+[24.494068] (-) TimerEvent: {}
+[24.595066] (-) TimerEvent: {}
+[24.695826] (-) TimerEvent: {}
+[24.803950] (-) TimerEvent: {}
+[24.906113] (-) TimerEvent: {}
+[25.012892] (-) TimerEvent: {}
+[25.113832] (-) TimerEvent: {}
+[25.215777] (-) TimerEvent: {}
+[25.318507] (-) TimerEvent: {}
+[25.422708] (-) TimerEvent: {}
+[25.525878] (-) TimerEvent: {}
+[25.629075] (-) TimerEvent: {}
+[25.731645] (-) TimerEvent: {}
+[25.833773] (-) TimerEvent: {}
+[25.944871] (-) TimerEvent: {}
+[26.066166] (-) TimerEvent: {}
+[26.168292] (-) TimerEvent: {}
+[26.275672] (-) TimerEvent: {}
+[26.377635] (-) TimerEvent: {}
+[26.482438] (-) TimerEvent: {}
+[26.583728] (-) TimerEvent: {}
+[26.686443] (-) TimerEvent: {}
+[26.788101] (-) TimerEvent: {}
+[26.890203] (-) TimerEvent: {}
+[26.993282] (-) TimerEvent: {}
+[27.098664] (-) TimerEvent: {}
+[27.201270] (-) TimerEvent: {}
+[27.315822] (-) TimerEvent: {}
+[27.422570] (-) TimerEvent: {}
+[27.524689] (-) TimerEvent: {}
+[27.632522] (-) TimerEvent: {}
+[27.743890] (-) TimerEvent: {}
+[27.845580] (-) TimerEvent: {}
+[27.947070] (-) TimerEvent: {}
+[28.050273] (-) TimerEvent: {}
+[28.151534] (-) TimerEvent: {}
+[28.252818] (-) TimerEvent: {}
+[28.356439] (-) TimerEvent: {}
+[28.458242] (-) TimerEvent: {}
+[28.561811] (-) TimerEvent: {}
+[28.662494] (-) TimerEvent: {}
+[28.765188] (-) TimerEvent: {}
+[28.869390] (-) TimerEvent: {}
+[28.973317] (-) TimerEvent: {}
+[29.077390] (-) TimerEvent: {}
+[29.178068] (-) TimerEvent: {}
+[29.280171] (-) TimerEvent: {}
+[29.384790] (-) TimerEvent: {}
+[29.486115] (-) TimerEvent: {}
+[29.587822] (-) TimerEvent: {}
+[29.688691] (-) TimerEvent: {}
+[29.790532] (-) TimerEvent: {}
+[29.893747] (-) TimerEvent: {}
+[29.994317] (-) TimerEvent: {}
+[30.095141] (-) TimerEvent: {}
+[30.148485] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9\x1b[m\x1b[K,\n'}
+[30.149033] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:54\x1b[m\x1b[K,\n'}
+[30.149299] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[30.149495] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:26\x1b[m\x1b[K:\n'}
+[30.149649] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::fileExists(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.149814] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ino\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.149968] (ydlidar) StderrLine: {'line': b'  240 |   struct stat info = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[30.150098] (ydlidar) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[30.150230] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_nlink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.150390] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.150530] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_uid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.150674] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_gid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.150851] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__pad0\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.151049] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_rdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.161328] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.162574] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.163014] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_blocks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.163289] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_atim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.163603] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_mtim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.163792] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::st_ctim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.163951] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kstat::__glibc_reserved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.181348] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:56\x1b[m\x1b[K,\n'}
+[30.181722] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[30.181938] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:26\x1b[m\x1b[K:\n'}
+[30.182163] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic Thread Thread::createThread(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.182360] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:43:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type\x07-Wcast-function-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.182542] (ydlidar) StderrLine: {'line': b'   43 |     pthread_create((pthread_t *)&thread_._handle, NULL, \x1b[01;35m\x1b[K(void *(*)(void *))proc\x1b[m\x1b[K,\n'}
+[30.182716] (ydlidar) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.195236] (-) TimerEvent: {}
+[30.237495] (ydlidar) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:58\x1b[m\x1b[K,\n'}
+[30.240054] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36\x1b[m\x1b[K,\n'}
+[30.242103] (ydlidar) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:26\x1b[m\x1b[K:\n'}
+[30.242984] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool ydlidar::isSupportMotorCtrl(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.243528] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:414:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.244030] (ydlidar) StderrLine: {'line': b'  414 |   bool \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = false;\n'}
+[30.244486] (ydlidar) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[30.296331] (-) TimerEvent: {}
+[30.407570] (-) TimerEvent: {}
+[30.484092] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.484489] (ydlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:208:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<LaserPoint>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.484759] (ydlidar) StderrLine: {'line': b'  208 |       for(int i=0; \x1b[01;35m\x1b[Ki < scan.points.size()\x1b[m\x1b[K; i++) {\n'}
+[30.484948] (ydlidar) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.508739] (-) TimerEvent: {}
+[30.612761] (-) TimerEvent: {}
+[30.716061] (-) TimerEvent: {}
+[30.819767] (-) TimerEvent: {}
+[30.921262] (-) TimerEvent: {}
+[31.022108] (-) TimerEvent: {}
+[31.122944] (-) TimerEvent: {}
+[31.229238] (-) TimerEvent: {}
+[31.332160] (-) TimerEvent: {}
+[31.435312] (-) TimerEvent: {}
+[31.543448] (-) TimerEvent: {}
+[31.652012] (-) TimerEvent: {}
+[31.760699] (-) TimerEvent: {}
+[31.862360] (-) TimerEvent: {}
+[31.975089] (-) TimerEvent: {}
+[32.086216] (-) TimerEvent: {}
+[32.191240] (-) TimerEvent: {}
+[32.291728] (-) TimerEvent: {}
+[32.392924] (-) TimerEvent: {}
+[32.493445] (-) TimerEvent: {}
+[32.595554] (-) TimerEvent: {}
+[32.698385] (-) TimerEvent: {}
+[32.801228] (-) TimerEvent: {}
+[32.902681] (-) TimerEvent: {}
+[33.005819] (-) TimerEvent: {}
+[33.111679] (-) TimerEvent: {}
+[33.217281] (-) TimerEvent: {}
+[33.321281] (-) TimerEvent: {}
+[33.426062] (-) TimerEvent: {}
+[33.528509] (-) TimerEvent: {}
+[33.629537] (-) TimerEvent: {}
+[33.731744] (-) TimerEvent: {}
+[33.833651] (-) TimerEvent: {}
+[33.936663] (-) TimerEvent: {}
+[34.039548] (-) TimerEvent: {}
+[34.146043] (-) TimerEvent: {}
+[34.255269] (-) TimerEvent: {}
+[34.360088] (-) TimerEvent: {}
+[34.466042] (-) TimerEvent: {}
+[34.567616] (-) TimerEvent: {}
+[34.675928] (-) TimerEvent: {}
+[34.780717] (-) TimerEvent: {}
+[34.890130] (-) TimerEvent: {}
+[34.993706] (-) TimerEvent: {}
+[35.110202] (-) TimerEvent: {}
+[35.211898] (-) TimerEvent: {}
+[35.313961] (-) TimerEvent: {}
+[35.414517] (-) TimerEvent: {}
+[35.516070] (-) TimerEvent: {}
+[35.617953] (-) TimerEvent: {}
+[35.724906] (-) TimerEvent: {}
+[35.826216] (-) TimerEvent: {}
+[35.928799] (-) TimerEvent: {}
+[36.032932] (-) TimerEvent: {}
+[36.141881] (-) TimerEvent: {}
+[36.246020] (-) TimerEvent: {}
+[36.356748] (-) TimerEvent: {}
+[36.461013] (-) TimerEvent: {}
+[36.576948] (-) TimerEvent: {}
+[36.677758] (-) TimerEvent: {}
+[36.802681] (-) TimerEvent: {}
+[36.907231] (-) TimerEvent: {}
+[37.009258] (-) TimerEvent: {}
+[37.118279] (-) TimerEvent: {}
+[37.221999] (-) TimerEvent: {}
+[37.332880] (-) TimerEvent: {}
+[37.441410] (-) TimerEvent: {}
+[37.542658] (-) TimerEvent: {}
+[37.643136] (-) TimerEvent: {}
+[37.743591] (-) TimerEvent: {}
+[37.843972] (-) TimerEvent: {}
+[37.944673] (-) TimerEvent: {}
+[38.045098] (-) TimerEvent: {}
+[38.145603] (-) TimerEvent: {}
+[38.245944] (-) TimerEvent: {}
+[38.346394] (-) TimerEvent: {}
+[38.446907] (-) TimerEvent: {}
+[38.547337] (-) TimerEvent: {}
+[38.647781] (-) TimerEvent: {}
+[38.748315] (-) TimerEvent: {}
+[38.848951] (-) TimerEvent: {}
+[38.949618] (-) TimerEvent: {}
+[39.050837] (-) TimerEvent: {}
+[39.151940] (-) TimerEvent: {}
+[39.253512] (-) TimerEvent: {}
+[39.354176] (-) TimerEvent: {}
+[39.455557] (-) TimerEvent: {}
+[39.559811] (-) TimerEvent: {}
+[39.660178] (-) TimerEvent: {}
+[39.760534] (-) TimerEvent: {}
+[39.860974] (-) TimerEvent: {}
+[39.961449] (-) TimerEvent: {}
+[39.968874] (ydlidar) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_node\x1b[0m\n'}
+[40.061551] (-) TimerEvent: {}
+[40.161927] (-) TimerEvent: {}
+[40.262356] (-) TimerEvent: {}
+[40.362776] (-) TimerEvent: {}
+[40.455716] (ydlidar) StdoutLine: {'line': b'[ 81%] Built target ydlidar_node\n'}
+[40.462897] (-) TimerEvent: {}
+[40.512484] (ydlidar) StdoutLine: {'line': b'[100%] Built target ydlidar_client\n'}
+[40.531663] (ydlidar) CommandEnded: {'returncode': 0}
+[40.562994] (-) TimerEvent: {}
+[40.594315] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'install'}
+[40.596502] (ydlidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ons/ros2_ws/build/ydlidar'], 'cwd': '/home/ons/ros2_ws/build/ydlidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ons'), ('LC_TIME', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR', '/home/ons/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ons'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/ons/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/140/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ons/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/140/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ons'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'ons'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ons-IdeaPad-Flex-5-14IIL05:@/tmp/.ICE-unix/1589,unix/ons-IdeaPad-Flex-5-14IIL05:/tmp/.ICE-unix/1589'), ('GTK_EXE_PREFIX', '/snap/code/140/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2ab226d_45b8_4838_bb69_94dbdf7e091a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/140/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YYURB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-37f1354377.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ons/snap/code/140/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ons/ros2_ws/build/ydlidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ons/snap/code/140/.local/share:/home/ons/snap/code/140:/snap/code/140/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[40.613500] (ydlidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.614264] (ydlidar) StdoutLine: {'line': b'-- Installing: /home/ons/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node\n'}
+[40.616202] (ydlidar) StdoutLine: {'line': b'-- Set runtime path of "/home/ons/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node" to ""\n'}
+[40.616707] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client\n'}
+[40.617016] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/launch\n'}
+[40.617228] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py\n'}
+[40.617506] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py\n'}
+[40.617677] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/params\n'}
+[40.617827] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml\n'}
+[40.617972] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/startup\n'}
+[40.618171] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh\n'}
+[40.618438] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar\n'}
+[40.618589] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar\n'}
+[40.618820] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh\n'}
+[40.618976] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv\n'}
+[40.619121] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh\n'}
+[40.619267] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv\n'}
+[40.619447] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash\n'}
+[40.619860] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh\n'}
+[40.620192] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh\n'}
+[40.620351] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv\n'}
+[40.620479] (ydlidar) StdoutLine: {'line': b'-- Installing: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/package.dsv\n'}
+[40.622145] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar\n'}
+[40.622533] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake\n'}
+[40.622691] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake\n'}
+[40.622818] (ydlidar) StdoutLine: {'line': b'-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/package.xml\n'}
+[40.631899] (ydlidar) CommandEnded: {'returncode': 0}
+[40.663139] (-) TimerEvent: {}
+[40.729806] (ydlidar) JobEnded: {'identifier': 'ydlidar', 'rc': 0}
+[40.730956] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.000387] (-) JobUnselected: {'identifier': 'test_node'}
+[0.000403] (-) JobUnselected: {'identifier': 'ydlidar'}
+[0.000433] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.000634] (-) EventReactorShutdown: {}

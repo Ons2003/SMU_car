@@ -1,0 +1,4 @@
+[  9%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o[0m

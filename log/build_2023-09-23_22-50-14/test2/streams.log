@@ -1,0 +1,35 @@
+[0.861s] Invoking command in '/home/ons/ros2_ws/src/test2': PYTHONPATH=/home/ons/ros2_ws/build/test2/prefix_override:/home/ons/ros2_ws/install/test2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test2 build --build-base /home/ons/ros2_ws/build/test2/build install --record /home/ons/ros2_ws/build/test2/install.log --single-version-externally-managed
+[1.120s] running egg_info
+[1.121s] creating ../../build/test2/test2.egg-info
+[1.121s] writing ../../build/test2/test2.egg-info/PKG-INFO
+[1.122s] writing dependency_links to ../../build/test2/test2.egg-info/dependency_links.txt
+[1.122s] writing entry points to ../../build/test2/test2.egg-info/entry_points.txt
+[1.122s] writing requirements to ../../build/test2/test2.egg-info/requires.txt
+[1.123s] writing top-level names to ../../build/test2/test2.egg-info/top_level.txt
+[1.123s] writing manifest file '../../build/test2/test2.egg-info/SOURCES.txt'
+[1.125s] reading manifest file '../../build/test2/test2.egg-info/SOURCES.txt'
+[1.126s] writing manifest file '../../build/test2/test2.egg-info/SOURCES.txt'
+[1.127s] running build
+[1.127s] running build_py
+[1.128s] creating /home/ons/ros2_ws/build/test2/build
+[1.128s] creating /home/ons/ros2_ws/build/test2/build/lib
+[1.128s] creating /home/ons/ros2_ws/build/test2/build/lib/test2
+[1.128s] copying test2/__init__.py -> /home/ons/ros2_ws/build/test2/build/lib/test2
+[1.128s] running install
+[1.129s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.129s]   warnings.warn(
+[1.130s] running install_lib
+[1.130s] creating /home/ons/ros2_ws/install/test2/lib/python3.10/site-packages/test2
+[1.130s] copying /home/ons/ros2_ws/build/test2/build/lib/test2/__init__.py -> /home/ons/ros2_ws/install/test2/lib/python3.10/site-packages/test2
+[1.131s] byte-compiling /home/ons/ros2_ws/install/test2/lib/python3.10/site-packages/test2/__init__.py to __init__.cpython-310.pyc
+[1.131s] running install_data
+[1.132s] creating /home/ons/ros2_ws/install/test2/share/ament_index
+[1.132s] creating /home/ons/ros2_ws/install/test2/share/ament_index/resource_index
+[1.132s] creating /home/ons/ros2_ws/install/test2/share/ament_index/resource_index/packages
+[1.132s] copying resource/test2 -> /home/ons/ros2_ws/install/test2/share/ament_index/resource_index/packages
+[1.133s] copying package.xml -> /home/ons/ros2_ws/install/test2/share/test2
+[1.133s] running install_egg_info
+[1.135s] Copying ../../build/test2/test2.egg-info to /home/ons/ros2_ws/install/test2/lib/python3.10/site-packages/test2-0.0.0-py3.10.egg-info
+[1.136s] running install_scripts
+[1.164s] writing list of installed files to '/home/ons/ros2_ws/build/test2/install.log'
+[1.211s] Invoked command in '/home/ons/ros2_ws/src/test2' returned '0': PYTHONPATH=/home/ons/ros2_ws/build/test2/prefix_override:/home/ons/ros2_ws/install/test2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test2 build --build-base /home/ons/ros2_ws/build/test2/build install --record /home/ons/ros2_ws/build/test2/install.log --single-version-externally-managed

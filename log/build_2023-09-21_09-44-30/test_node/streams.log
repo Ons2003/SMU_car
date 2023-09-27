@@ -1,0 +1,25 @@
+[0.996s] Invoking command in '/home/ons/my_ros2_ws/src/test_node': PYTHONPATH=/home/ons/my_ros2_ws/build/test_node/prefix_override:/home/ons/my_ros2_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_node build --build-base /home/ons/my_ros2_ws/build/test_node/build install --record /home/ons/my_ros2_ws/build/test_node/install.log --single-version-externally-managed
+[1.426s] running egg_info
+[1.427s] writing ../../build/test_node/test_node.egg-info/PKG-INFO
+[1.428s] writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt
+[1.428s] writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt
+[1.428s] writing requirements to ../../build/test_node/test_node.egg-info/requires.txt
+[1.429s] writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt
+[1.431s] reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[1.433s] writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[1.433s] running build
+[1.433s] running build_py
+[1.434s] copying test_node/main_node.py -> /home/ons/my_ros2_ws/build/test_node/build/lib/test_node
+[1.434s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.434s]   warnings.warn(
+[1.435s] running install
+[1.435s] running install_lib
+[1.436s] copying /home/ons/my_ros2_ws/build/test_node/build/lib/test_node/main_node.py -> /home/ons/my_ros2_ws/install/test_node/lib/python3.10/site-packages/test_node
+[1.438s] byte-compiling /home/ons/my_ros2_ws/install/test_node/lib/python3.10/site-packages/test_node/main_node.py to main_node.cpython-310.pyc
+[1.439s] running install_data
+[1.439s] running install_egg_info
+[1.442s] removing '/home/ons/my_ros2_ws/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.443s] Copying ../../build/test_node/test_node.egg-info to /home/ons/my_ros2_ws/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info
+[1.446s] running install_scripts
+[1.476s] writing list of installed files to '/home/ons/my_ros2_ws/build/test_node/install.log'
+[1.496s] Invoked command in '/home/ons/my_ros2_ws/src/test_node' returned '0': PYTHONPATH=/home/ons/my_ros2_ws/build/test_node/prefix_override:/home/ons/my_ros2_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_node build --build-base /home/ons/my_ros2_ws/build/test_node/build install --record /home/ons/my_ros2_ws/build/test_node/install.log --single-version-externally-managed

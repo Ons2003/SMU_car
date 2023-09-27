@@ -1,0 +1,34 @@
+[0.265s] Invoking command in '/home/ons/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/opt/ros/humble /usr/bin/cmake /home/ons/ros2_ws/src/ydlidar_ros2_driver-master -DCMAKE_INSTALL_PREFIX=/home/ons/ros2_ws/install/ydlidar_ros2_driver
+[0.279s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.508s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.543s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.552s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.558s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.636s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.637s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.757s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.026s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.235s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.398s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.427s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[1.427s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[1.427s]   has asked CMake to find a package configuration file provided by
+[1.427s]   "ydlidar_sdk", but CMake did not find one.
+[1.427s] 
+[1.428s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[1.428s]   any of the following names:
+[1.428s] 
+[1.428s]     ydlidar_sdkConfig.cmake
+[1.428s]     ydlidar_sdk-config.cmake
+[1.428s] 
+[1.432s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[1.432s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[1.433s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[1.433s]   has been installed.
+[1.433s] 
+[1.433s] [0m
+[1.433s] -- Configuring incomplete, errors occurred!
+[1.433s] See also "/home/ons/ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[1.438s] Invoked command in '/home/ons/ros2_ws/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/opt/ros/humble /usr/bin/cmake /home/ons/ros2_ws/src/ydlidar_ros2_driver-master -DCMAKE_INSTALL_PREFIX=/home/ons/ros2_ws/install/ydlidar_ros2_driver
