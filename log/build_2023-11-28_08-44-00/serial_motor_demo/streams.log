@@ -1,0 +1,26 @@
+[2.560s] Invoking command in '/home/ons/ros2_ws/src/serial_motor_demo/serial_motor_demo': CMAKE_PREFIX_PATH=/home/ons/ros2_ws/install/serial_motor_demo_msgs:/home/ons/ros2_ws/install/ydlidar:/home/ons/ros2_ws/install/diffdrive_arduino:/home/ons/ros2_ws/install/articubot_one PYTHONPATH=/home/ons/ros2_ws/build/serial_motor_demo/prefix_override:/home/ons/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/ons/ros2_ws/build/serial_motor_demo/build install --record /home/ons/ros2_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[3.629s] /home/ons/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.629s]   warnings.warn(
+[3.723s] running egg_info
+[3.726s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[3.728s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[3.728s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[3.728s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[3.728s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[3.736s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[3.738s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[3.739s] running build
+[3.739s] running build_py
+[3.744s] running install
+[3.746s] running install_lib
+[3.752s] byte-compiling /home/ons/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/gui.py to gui.cpython-310.pyc
+[3.755s] Sorry: IndentationError: unexpected indent (gui.py, line 112)
+[3.757s] running install_data
+[3.764s] running install_egg_info
+[3.769s] removing '/home/ons/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[3.770s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/ons/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[3.772s] running install_scripts
+[3.852s] Installing driver script to /home/ons/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[3.854s] Installing gui script to /home/ons/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[3.856s] writing list of installed files to '/home/ons/ros2_ws/build/serial_motor_demo/install.log'
+[3.949s] Invoked command in '/home/ons/ros2_ws/src/serial_motor_demo/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/ons/ros2_ws/install/serial_motor_demo_msgs:/home/ons/ros2_ws/install/ydlidar:/home/ons/ros2_ws/install/diffdrive_arduino:/home/ons/ros2_ws/install/articubot_one PYTHONPATH=/home/ons/ros2_ws/build/serial_motor_demo/prefix_override:/home/ons/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/ons/ros2_ws/build/serial_motor_demo/build install --record /home/ons/ros2_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed

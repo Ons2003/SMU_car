@@ -1,0 +1,38 @@
+[0.436s] Invoking command in '/home/ons/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/ons/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/ons/ros2_ws/install/serial_motor_demo_msgs
+[0.496s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.035s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.064s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.344s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.356s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.951s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.224s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.278s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.278s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.279s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.346s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.349s] -- Added test 'lint_cmake' to check CMake code style
+[3.350s] -- Added test 'xmllint' to check XML markup files
+[3.362s] -- Configuring done
+[3.473s] -- Generating done
+[3.481s] -- Build files have been written to: /home/ons/ros2_ws/build/serial_motor_demo_msgs
+[3.510s] Invoked command in '/home/ons/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/ons/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/ons/ros2_ws/install/serial_motor_demo_msgs
+[3.511s] Invoking command in '/home/ons/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[3.664s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_generator_c[0m
+[3.690s] [  2%] Built target serial_motor_demo_msgs__cpp
+[3.724s] [ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[3.756s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.781s] failed to create symbolic link '/home/ons/ros2_ws/build/serial_motor_demo_msgs/ament_cmake_python/serial_motor_demo_msgs/serial_motor_demo_msgs' because existing path cannot be removed: Is a directory
+[3.786s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs] Error 1
+[3.786s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs.dir/all] Error 2
+[3.786s] gmake[1]: *** Waiting for unfinished jobs....
+[3.813s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.813s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_cpp[0m
+[3.848s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[3.897s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[3.922s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[3.926s] gmake: *** [Makefile:146: all] Error 2
+[3.935s] Invoked command in '/home/ons/ros2_ws/build/serial_motor_demo_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/serial_motor_demo_msgs -- -j4 -l4

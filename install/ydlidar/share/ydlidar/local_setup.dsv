@@ -1,2 +1,1 @@
-source;share/ydlidar/environment/ament_prefix_path.sh
-source;share/ydlidar/environment/path.sh
+/home/ons/ros2_ws/build/ydlidar/ament_cmake_environment_hooks/local_setup.dsv

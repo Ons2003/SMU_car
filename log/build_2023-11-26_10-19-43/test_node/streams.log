@@ -1,0 +1,21 @@
+[1.047s] Invoking command in '/home/ons/ros2_ws/src/test_node': PYTHONPATH=/home/ons/ros2_ws/build/test_node/prefix_override:/home/ons/ros2_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_node build --build-base /home/ons/ros2_ws/build/test_node/build install --record /home/ons/ros2_ws/build/test_node/install.log --single-version-externally-managed
+[1.285s] running egg_info
+[1.285s] writing ../../build/test_node/test_node.egg-info/PKG-INFO
+[1.286s] writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt
+[1.286s] writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt
+[1.286s] writing requirements to ../../build/test_node/test_node.egg-info/requires.txt
+[1.286s] writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt
+[1.288s] reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[1.289s] writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[1.289s] running build
+[1.289s] running build_py
+[1.290s] running install
+[1.290s] running install_lib
+[1.292s] running install_data
+[1.292s] running install_egg_info
+[1.294s] removing '/home/ons/ros2_ws/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.294s] Copying ../../build/test_node/test_node.egg-info to /home/ons/ros2_ws/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info
+[1.295s] running install_scripts
+[1.313s] Installing main_node script to /home/ons/ros2_ws/install/test_node/lib/test_node
+[1.313s] writing list of installed files to '/home/ons/ros2_ws/build/test_node/install.log'
+[1.342s] Invoked command in '/home/ons/ros2_ws/src/test_node' returned '0': PYTHONPATH=/home/ons/ros2_ws/build/test_node/prefix_override:/home/ons/ros2_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_node build --build-base /home/ons/ros2_ws/build/test_node/build install --record /home/ons/ros2_ws/build/test_node/install.log --single-version-externally-managed

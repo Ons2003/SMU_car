@@ -36,7 +36,7 @@ Note: You should see YDLIDAR's scan result in the console
 	$ros2 run ydldiar ydlidar_client or ros2 topic echo /scan
 or
 
-	$ros2 launch ydlidar ydlidar_launch.py
+        $ros2 launch ydlidar ydlidar_launch.py
 
 ## Dataset
 |LIDAR      | Model  |  Baudrate |  SampleRate(K) | Range(m)  		   |  Frequency(HZ) | Intenstiy(bit) | SingleChannel | voltage(V)|

@@ -1,0 +1,30 @@
+[0.187s] Invoking command in '/home/ons/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[0.417s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[3.789s] In file included from [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:34[m[K,
+[3.790s]                  from [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[3.790s] [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:[m[K In member function ‘[01m[Kvoid ArduinoComms::set_motor_values(int)[m[K’:
+[3.790s] [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:102:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kval[m[K’ was not declared in this scope; did you mean ‘[01m[Kval_1[m[K’?
+[3.790s]   102 |     ss << [01;31m[Kval[m[K
+[3.790s]       |           [01;31m[K^~~[m[K
+[3.790s]       |           [32m[Kval_1[m[K
+[3.791s] [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:99:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kval_1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.791s]    99 |   void set_motor_values([01;35m[Kint val_1[m[K)
+[3.791s]       |                         [01;35m[K~~~~^~~~~[m[K
+[6.835s] [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type diffdrive_arduino::DiffDriveArduinoHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.835s] [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:209:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_seconds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.836s]   209 |   double [01;35m[Kdelta_seconds[m[K = period.seconds();
+[6.836s]       |          [01;35m[K^~~~~~~~~~~~~[m[K
+[6.836s] [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type diffdrive_arduino::DiffDriveArduinoHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.836s] [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:232:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KArduinoComms::set_motor_values(int&, int&)[m[K’
+[6.836s]   232 |   [01;31m[Kcomms_.set_motor_values(motor_l_counts_per_loop, motor_r_counts_per_loop)[m[K;
+[6.836s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.836s] In file included from [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:34[m[K,
+[6.836s]                  from [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[6.836s] [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:99:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ArduinoComms::set_motor_values(int)[m[K’
+[6.837s]    99 |   void [01;36m[Kset_motor_values[m[K(int val_1)
+[6.837s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.837s] [01m[K/home/ons/ros2_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:99:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[7.665s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1
+[7.666s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[7.666s] gmake: *** [Makefile:146: all] Error 2
+[7.670s] Invoked command in '/home/ons/ros2_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/diffdrive_arduino -- -j4 -l4

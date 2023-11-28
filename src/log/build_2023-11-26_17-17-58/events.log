@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.000317] (-) JobUnselected: {'identifier': 'serial_motor_demo_msgs'}
+[0.000334] (-) JobUnselected: {'identifier': 'test_node'}
+[0.000348] (-) JobUnselected: {'identifier': 'ydlidar'}
+[0.000363] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/ons/ros2_ws/src/install/serial_motor_demo_msgs')])}
+[0.000384] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[0.065764] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 1}
+[0.077094] (-) EventReactorShutdown: {}

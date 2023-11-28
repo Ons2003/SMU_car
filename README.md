@@ -19,3 +19,10 @@ $ THE FOLLOWING COMMANDS ARE MEANT TO LAUNCH PROGRAMS WITHIN THIS PROJECT
     {run on raspberry pi}
     ros2 launch articubot_one launch_robot.launch.py 
 
+Modules dependencies : 
+    
+$ Files 
+    $ DESCRIPTION 
+        Robot_urdf : main urdf config file 
+        lidar :  
+

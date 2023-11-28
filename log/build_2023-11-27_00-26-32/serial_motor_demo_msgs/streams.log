@@ -1,0 +1,23 @@
+[0.248s] Invoking command in '/home/ons/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[0.357s] [ 10%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[0.365s] [ 12%] Built target serial_motor_demo_msgs__cpp
+[0.371s] [ 12%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[0.405s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[0.415s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[0.419s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.460s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[0.473s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[0.495s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[0.540s] [ 76%] Built target serial_motor_demo_msgs
+[0.590s] [ 78%] Built target serial_motor_demo_msgs__py
+[0.642s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[0.698s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[0.710s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.723s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[0.921s] running egg_info
+[0.922s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[0.922s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[0.922s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[0.926s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.928s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.970s] [100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg

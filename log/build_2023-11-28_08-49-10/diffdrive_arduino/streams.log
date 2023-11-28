@@ -1,0 +1,5 @@
+[0.175s] Invoking command in '/home/ons/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[0.352s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[4.378s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[4.597s] [100%] Built target diffdrive_arduino

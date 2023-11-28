@@ -1,0 +1,55 @@
+[0.205s] Invoking command in '/home/ons/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[0.330s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[0.413s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[7.864s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[8.170s] [100%] Built target diffdrive_arduino
+[8.184s] Invoked command in '/home/ons/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[8.217s] Invoking command in '/home/ons/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/diffdrive_arduino
+[8.226s] -- Install configuration: ""
+[8.227s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino.xml
+[8.227s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino
+[8.227s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino
+[8.227s] -- Installing: /home/ons/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[8.227s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[8.228s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[8.228s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[8.228s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch
+[8.228s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[8.228s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control
+[8.229s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[8.229s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf
+[8.229s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[8.229s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[8.229s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[8.230s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz
+[8.230s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[8.230s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[8.230s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch
+[8.230s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[8.230s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/config
+[8.231s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[8.231s] -- Installing: /home/ons/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[8.231s] -- Set runtime path of "/home/ons/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[8.231s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[8.232s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[8.232s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[8.232s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[8.232s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[8.233s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[8.233s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[8.233s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[8.233s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[8.233s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[8.233s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[8.234s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[8.234s] -- Installing: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[8.234s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[8.234s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[8.234s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[8.235s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[8.235s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[8.235s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.235s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[8.235s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[8.235s] -- Up-to-date: /home/ons/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[8.237s] Invoked command in '/home/ons/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/diffdrive_arduino

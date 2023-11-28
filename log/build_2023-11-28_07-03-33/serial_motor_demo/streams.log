@@ -1,0 +1,24 @@
+[1.789s] Invoking command in '/home/ons/ros2_ws/src/serial_motor_demo/serial_motor_demo': CMAKE_PREFIX_PATH=/home/ons/ros2_ws/install/serial_motor_demo_msgs:/home/ons/ros2_ws/install/ydlidar:/home/ons/ros2_ws/install/diffdrive_arduino:/home/ons/ros2_ws/install/articubot_one PYTHONPATH=/home/ons/ros2_ws/build/serial_motor_demo/prefix_override:/home/ons/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/ons/ros2_ws/build/serial_motor_demo/build install --record /home/ons/ros2_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[2.147s] /home/ons/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.147s]   warnings.warn(
+[2.202s] running egg_info
+[2.204s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[2.207s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[2.207s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[2.207s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[2.207s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[2.214s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.218s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.220s] running build
+[2.220s] running build_py
+[2.221s] running install
+[2.222s] running install_lib
+[2.225s] running install_data
+[2.226s] running install_egg_info
+[2.229s] removing '/home/ons/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[2.232s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/ons/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[2.233s] running install_scripts
+[2.273s] Installing driver script to /home/ons/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.274s] Installing gui script to /home/ons/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.275s] writing list of installed files to '/home/ons/ros2_ws/build/serial_motor_demo/install.log'
+[2.328s] Invoked command in '/home/ons/ros2_ws/src/serial_motor_demo/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/ons/ros2_ws/install/serial_motor_demo_msgs:/home/ons/ros2_ws/install/ydlidar:/home/ons/ros2_ws/install/diffdrive_arduino:/home/ons/ros2_ws/install/articubot_one PYTHONPATH=/home/ons/ros2_ws/build/serial_motor_demo/prefix_override:/home/ons/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/ons/ros2_ws/build/serial_motor_demo/build install --record /home/ons/ros2_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed

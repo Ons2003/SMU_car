@@ -1,0 +1,31 @@
+[0.610s] Invoking command in '/home/ons/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/ydlidar -- -j4 -l4
+[0.847s] [ 18%] Built target ydlidar_client
+[0.866s] [100%] Built target ydlidar_node
+[0.954s] Invoked command in '/home/ons/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/ydlidar -- -j4 -l4
+[1.174s] Invoking command in '/home/ons/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/ydlidar
+[1.190s] -- Install configuration: ""
+[1.191s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[1.193s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[1.195s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/launch
+[1.196s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[1.197s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[1.198s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/params
+[1.199s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[1.200s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/startup
+[1.200s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[1.200s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[1.201s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[1.201s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[1.201s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[1.201s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[1.201s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[1.202s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[1.202s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[1.202s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[1.202s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[1.202s] -- Installing: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
+[1.203s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[1.203s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[1.204s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[1.204s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/package.xml
+[1.216s] Invoked command in '/home/ons/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/ydlidar
