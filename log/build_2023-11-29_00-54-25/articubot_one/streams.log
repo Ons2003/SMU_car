@@ -1,0 +1,11 @@
+[0.088s] Invoking command in '/home/ons/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/articubot_one -- -j4 -l4
+[0.152s] Invoked command in '/home/ons/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/articubot_one -- -j4 -l4
+[0.226s] Invoking command in '/home/ons/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/articubot_one
+[0.238s] -- Install configuration: ""
+[0.238s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config
+[0.238s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description
+[0.238s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch
+[0.238s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/worlds
+[0.238s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/worlds/main.world
+[0.239s] -- Installing: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/package.dsv
+[0.243s] Invoked command in '/home/ons/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/articubot_one

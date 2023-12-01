@@ -1,0 +1,275 @@
+[0.090s] Invoking command in '/home/ons/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/ydlidar -- -j4 -l4
+[0.128s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.514s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.518s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.530s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.552s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.711s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.338s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.614s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.783s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.004s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.037s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.038s] -- Configured cppcheck include dirs: /home/ons/ros2_ws/src/ydlidar_ros2/src;/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include;/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src
+[2.039s] -- Configured cppcheck exclude dirs and/or files: 
+[2.071s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.071s] -- Configured cpplint exclude dirs and/or files: 
+[2.074s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.082s] -- Added test 'lint_cmake' to check CMake code style
+[2.093s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.115s] -- Added test 'uncrustify' to check C / C++ code style
+[2.115s] -- Configured uncrustify additional arguments: 
+[2.127s] -- Added test 'xmllint' to check XML markup files
+[2.128s] -- Configuring done
+[2.154s] -- Generating done
+[2.155s] -- Build files have been written to: /home/ons/ros2_ws/build/ydlidar
+[2.245s] [  9%] [32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o[0m
+[2.254s] [ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o[0m
+[2.269s] [ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o[0m
+[2.285s] [ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o[0m
+[3.730s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[3.731s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/list_ports_linux.cpp:26[m[K:
+[3.731s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[3.731s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.731s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[3.731s]       |                        [01;35m[K^[m[K
+[3.731s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.731s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.731s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.732s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.738s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.739s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.740s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.741s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.744s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.745s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.746s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.747s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.748s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.758s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/list_ports_linux.cpp:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[3.759s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/list_ports_linux.cpp:58:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.760s]    58 |   int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[3.763s]       |       [01;35m[K^~~~~~~~~~~[m[K
+[4.273s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[4.273s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:54[m[K,
+[4.273s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[4.273s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[4.274s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[4.274s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.274s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[4.274s]       |                        [01;35m[K^[m[K
+[4.274s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.274s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.274s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.274s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.274s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.274s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.274s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.275s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.281s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.281s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.281s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.282s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.283s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.295s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:56[m[K,
+[4.295s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[4.295s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[4.295s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[4.296s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:43:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[4.296s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+[4.296s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.315s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[4.315s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[4.315s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[4.315s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[4.315s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.316s]   414 |   bool [01;35m[Kret[m[K = false;
+[4.316s]       |        [01;35m[K^~~[m[K
+[4.848s] [ 45%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o[0m
+[4.881s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:[m[K In member function ‘[01m[Kbool CYdLidar::doProcessSimple(LaserScan&, bool&)[m[K’:
+[4.881s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:216:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.881s]   216 |     for (int i = 0; [01;35m[Ki < count[m[K; i++) {
+[4.882s]       |                     [01;35m[K~~^~~~~~~[m[K
+[5.378s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[5.378s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[5.378s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[5.378s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::ParseLaserDebugInfo(const LaserDebug&, device_info&)[m[K’:
+[5.378s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:679:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksprintf[m[K’ writing a terminating nul past the end of the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+[5.378s]   679 |       sprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d[01;35m[K"[m[K, Number);
+[5.378s]       |                                                                   [01;35m[K^[m[K
+[5.379s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:679:14:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output 9 bytes into a destination of size 8
+[5.379s]   679 |       [01;36m[Ksprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d", Number)[m[K;
+[5.379s]       |       [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.971s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[5.971s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_serial.h:9[m[K,
+[5.971s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_serial.cpp:39[m[K:
+[5.972s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[5.972s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.972s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[5.972s]       |                        [01;35m[K^[m[K
+[5.975s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.975s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.975s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.976s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.976s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.976s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.976s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.976s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.976s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.976s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.977s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.977s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.977s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.987s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_serial.cpp:[m[K In member function ‘[01m[Kbool serial::Serial::SerialImpl::setCustomBaudRate(long unsigned int)[m[K’:
+[5.988s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_serial.cpp:1235:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.989s]  1235 |   if ([01;35m[Kserial.custom_divisor * baudrate != serial.baud_base[m[K) {
+[5.989s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.203s] [ 54%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o[0m
+[6.211s] [ 63%] [32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o[0m
+[6.461s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/lock.c:[m[K In function ‘[01m[Kfhs_lock[m[K’:
+[6.462s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/lock.c:199:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.462s]   199 | int fhs_lock(const char *filename, [01;35m[Kint pid[m[K) {
+[6.462s]       |                                    [01;35m[K~~~~^~~[m[K
+[6.462s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/lock.c:[m[K In function ‘[01m[Kuucp_lock[m[K’:
+[6.462s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/lock.c:281:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.462s]   281 | int uucp_lock(const char *filename, [01;35m[Kint pid[m[K) {
+[6.462s]       |                                     [01;35m[K~~~~^~~[m[K
+[6.629s] [ 72%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o[0m
+[6.737s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/timer.h:2[m[K,
+[6.737s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/impl/unix/unix_timer.cpp:2[m[K:
+[6.737s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[6.737s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.737s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[6.737s]       |                        [01;35m[K^[m[K
+[6.740s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.740s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.740s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.740s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.740s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.741s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.741s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.741s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.741s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.741s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.741s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.741s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.741s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.892s] [ 81%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o[0m
+[8.994s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[8.995s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:54[m[K,
+[8.995s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:34[m[K:
+[8.995s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[8.995s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.995s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[8.995s]       |                        [01;35m[K^[m[K
+[8.995s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.995s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.996s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.997s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.003s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:56[m[K,
+[9.004s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:34[m[K:
+[9.004s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[9.004s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:43:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[9.004s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+[9.004s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.013s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[9.013s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:34[m[K:
+[9.013s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[9.013s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[9.013s]   414 |   bool [01;35m[Kret[m[K = false;
+[9.013s]       |        [01;35m[K^~~[m[K
+[9.031s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[9.031s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/serial.cpp:11[m[K:
+[9.031s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[9.031s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.031s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[9.032s]       |                        [01;35m[K^[m[K
+[9.034s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.035s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.035s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.035s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.035s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.035s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.035s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.035s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.035s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.036s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.036s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.036s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.036s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.144s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::YDlidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[9.144s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/ydlidar_driver.cpp:992:95:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around arithmetic in operand of ‘[01m[K|[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[9.144s]   992 |                                          [01;35m[Kpackages.packageSampleDistance[package_Sample_Index] &[m[K
+[9.145s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[9.145s]   993 | [01;35m[K                                         0x0003[m[K)) << LIDAR_RESP_MEASUREMENT_QUALITY_SHIFT;
+[9.145s]       |                                          [01;35m[K~~~~~~[m[K                                                
+[9.200s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/common.h:47[m[K,
+[9.200s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/src/serial.cpp:12[m[K:
+[9.200s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[9.200s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:43:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[9.200s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+[9.201s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.560s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/serial.h:9[m[K,
+[10.560s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:54[m[K,
+[10.560s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[10.560s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:26[m[K:
+[10.560s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:[m[K In function ‘[01m[Kbool ydlidar::fileExists(std::string)[m[K’:
+[10.561s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.561s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[10.561s]       |                        [01;35m[K^[m[K
+[10.561s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.561s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.561s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.561s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.561s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.561s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.562s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.562s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.562s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.562s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.562s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.562s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.562s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.570s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:56[m[K,
+[10.570s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[10.571s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:26[m[K:
+[10.571s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:[m[K In static member function ‘[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K’:
+[10.571s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/thread.h:43:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[10.571s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+[10.571s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.579s] In file included from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[10.579s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/CYdLidar.h:36[m[K,
+[10.579s]                  from [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:26[m[K:
+[10.579s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:[m[K In function ‘[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K’:
+[10.579s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[10.579s]   414 |   bool [01;35m[Kret[m[K = false;
+[10.579s]       |        [01;35m[K^~~[m[K
+[10.626s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.626s] [01m[K/home/ons/ros2_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:208:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[10.627s]   208 |       for(int i=0; [01;35m[Ki < scan.points.size()[m[K; i++) {
+[10.627s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[15.147s] [ 90%] [32m[1mLinking CXX executable ydlidar_node[0m
+[15.729s] [ 90%] Built target ydlidar_node
+[20.891s] [100%] [32m[1mLinking CXX executable ydlidar_client[0m
+[21.449s] [100%] Built target ydlidar_client
+[21.477s] Invoked command in '/home/ons/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/ydlidar -- -j4 -l4
+[21.527s] Invoking command in '/home/ons/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/ydlidar
+[21.535s] -- Install configuration: ""
+[21.536s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/launch
+[21.537s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/params
+[21.537s] -- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/startup
+[21.539s] -- Installing: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
+[21.543s] Invoked command in '/home/ons/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/ydlidar

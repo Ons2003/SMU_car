@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target ydlidar_client[0m
+[35m[1mConsolidate compiler generated dependencies of target ydlidar_node[0m
+[ 18%] Built target ydlidar_client
+[100%] Built target ydlidar_node
+-- Install configuration: ""
+-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/launch
+-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/params
+-- Up-to-date: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/startup
+-- Installing: /home/ons/ros2_ws/install/ydlidar/share/ydlidar/package.dsv

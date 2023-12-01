@@ -1,0 +1,11 @@
+[0.062s] Invoking command in '/home/ons/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/articubot_one -- -j4 -l4
+[0.159s] Invoked command in '/home/ons/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ons/ros2_ws/build/articubot_one -- -j4 -l4
+[0.191s] Invoking command in '/home/ons/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/articubot_one
+[0.201s] -- Install configuration: ""
+[0.203s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/config
+[0.205s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/description
+[0.206s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/launch
+[0.206s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/worlds
+[0.206s] -- Up-to-date: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/worlds/main.world
+[0.208s] -- Installing: /home/ons/ros2_ws/install/articubot_one/share/articubot_one/package.dsv
+[0.211s] Invoked command in '/home/ons/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ons/ros2_ws/build/articubot_one
