@@ -1,0 +1,1 @@
+/home/ons/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
