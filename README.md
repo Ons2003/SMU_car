@@ -26,3 +26,63 @@ $ Files
         Robot_urdf : main urdf config file 
         lidar :  
 
+MOTORS 
+	(pi)ROS Driver node listening for motor speed on topic and sending them 
+	(comp)ROS Contol node 
+
+LIDAR 
+	Package : yplidar_ros2 
+	Launch file in project : rplidar.launch.py (edit params)
+	COnfig file in ros2 package : params/ydlidar.yaml
+	Get usb port path : (PLUG IN TO SAME PORT ) 
+		$ ls dev/serial/by-id or by-path
+	
+	Control lidar using compt 
+		$ ros2 service call 
+		
+RVIZ2
+	lazerscan :
+		scan topic 
+		fixed frame : laser_frame 
+		
+Dependencies ( sudo apt install )
+	 
+	sudo apt install ros-humble-xacro ros-humble-joint-state-publisher  ros-humble-twist-mux ros-humble-ros2-control ros-humble-ros2-controllers  ros-humble-pluginlib ros-humble-controller-manager libserial-dev ros-humble-pluginlib ros-humble-slam-toolbox
+ros-humble-navigation2 ros-humble-turtlebot3-manipulation-navigation2 ros-humble-turtlebot3-navigation2
+rviz2
+ros-gazebo-ros2-control
+ros-gazebo-ros-pkgs ros-humble-gazebo-ros-pkgs	  
+
+$add   <exec_depend>visualization_msgs</exec_depend> 
+TO ARTICUBOT_ONE all packages that it depends on 
+
+
+TEST compt RASP com 
+ (pi) ros2 run demo_nodes listener 
+ (comp) ros2 run demo_nodes talker 
+ 
+Remapping and parameters : 
+	--ros-args [-p parameter] [-r remapping (:topic1:=topic2)]
+
+PI 
+	*install dependencies 
+	*Check lidar and arduino connections and ports
+	*Check pi voltage 
+		$ vcgencmd get_throttled 
+			if 0x5005 -> underc voltaged
+			if 0X0 -> OK
+	*Fix display manager 
+		$journalctl -fe ( gives lightdm service failed)
+		$systemctl get-default (graphical.target)
+		$sudo systemctl set-default multi-user.target
+	to switch back : $sudo systemctl set-default graphical.target
+		$sudo reboot 
+	*check ports
+		$ls /dev/tty*
+
+		
+	*check installation progress (apt)
+		sudo tail -f /var/log/apt/term.log
+
+		
+
