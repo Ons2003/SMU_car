@@ -19,12 +19,17 @@ $ THE FOLLOWING COMMANDS ARE MEANT TO LAUNCH PROGRAMS WITHIN THIS PROJECT
     {run on raspberry pi}
     ros2 launch articubot_one launch_robot.launch.py 
 
+
+Dependencies ( sudo apt install )
+	 
+	sudo apt install ros-humble-xacro ros-humble-joint-state-publisher  ros-humble-twist-mux ros-humble-ros2-control ros-humble-ros2-controllers  ros-humble-pluginlib ros-humble-controller-manager libserial-dev ros-humble-pluginlib ros-humble-slam-toolbox ros-humble-navigation2 ros-humble-turtlebot3-manipulation-navigation2 ros-humble-turtlebot3-navigation2 rviz2 ros-gazebo-ros2-control ros-gazebo-ros-pkgs ros-humble-gazebo-ros-pkgs	
+
 Modules dependencies : 
-    
 $ Files 
     $ DESCRIPTION 
         Robot_urdf : main urdf config file 
         lidar :  
+	(still to be written)
 
 MOTORS 
 	(pi)ROS Driver node listening for motor speed on topic and sending them 
@@ -45,13 +50,7 @@ RVIZ2
 		scan topic 
 		fixed frame : laser_frame 
 		
-Dependencies ( sudo apt install )
-	 
-	sudo apt install ros-humble-xacro ros-humble-joint-state-publisher  ros-humble-twist-mux ros-humble-ros2-control ros-humble-ros2-controllers  ros-humble-pluginlib ros-humble-controller-manager libserial-dev ros-humble-pluginlib ros-humble-slam-toolbox
-ros-humble-navigation2 ros-humble-turtlebot3-manipulation-navigation2 ros-humble-turtlebot3-navigation2
-rviz2
-ros-gazebo-ros2-control
-ros-gazebo-ros-pkgs ros-humble-gazebo-ros-pkgs	  
+  
 
 $add   <exec_depend>visualization_msgs</exec_depend> 
 TO ARTICUBOT_ONE all packages that it depends on 
@@ -64,7 +63,7 @@ TEST compt RASP com
 Remapping and parameters : 
 	--ros-args [-p parameter] [-r remapping (:topic1:=topic2)]
 
-PI 
+on Raspberry PI 
 	*install dependencies 
 	*Check lidar and arduino connections and ports
 	*Check pi voltage 
