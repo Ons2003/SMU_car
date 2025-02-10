@@ -22,7 +22,7 @@ $ THE FOLLOWING COMMANDS ARE MEANT TO LAUNCH PROGRAMS WITHIN THIS PROJECT
 
 Dependencies ( sudo apt install )
 	 
-	sudo apt install ros-humble-xacro ros-humble-joint-state-publisher  ros-humble-twist-mux ros-humble-ros2-control ros-humble-ros2-controllers  ros-humble-pluginlib ros-humble-controller-manager libserial-dev ros-humble-pluginlib ros-humble-slam-toolbox ros-humble-navigation2 ros-humble-turtlebot3-manipulation-navigation2 ros-humble-turtlebot3-navigation2 ros-humble-rviz2 ros-humble-gazebo-ros2-control ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros-pkgs	
+	sudo apt install ros-humble-xacro ros-humble-joint-state-publisher  ros-humble-twist-mux ros-humble-ros2-control ros-humble-ros2-controllers  ros-humble-pluginlib ros-humble-controller-manager libserial-dev ros-humble-pluginlib ros-humble-slam-toolbox ros-humble-navigation2 ros-humble-turtlebot3-manipulation-navigation2 ros-humble-turtlebot3-navigation2 ros-humble-rviz2 ros-humble-gazebo-ros2-control ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros-pkgs python3-colcon-common-extensions
 
 Modules dependencies : 
 $ Files 
