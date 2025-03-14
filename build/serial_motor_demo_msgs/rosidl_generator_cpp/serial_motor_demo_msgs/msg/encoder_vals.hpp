@@ -7,5 +7,6 @@
 #include "serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp"
 #include "serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp"
 #include "serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp"
+#include "serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp"
 
 #endif  // SERIAL_MOTOR_DEMO_MSGS__MSG__ENCODER_VALS_HPP_

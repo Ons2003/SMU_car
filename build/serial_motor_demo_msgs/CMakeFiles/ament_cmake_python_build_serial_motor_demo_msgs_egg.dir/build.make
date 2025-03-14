@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_serial_motor_demo_msgs_egg.dir/compi
 include CMakeFiles/ament_cmake_python_build_serial_motor_demo_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_serial_motor_demo_msgs_egg:
-	cd /home/ons/ros2_ws/build/serial_motor_demo_msgs/ament_cmake_python/serial_motor_demo_msgs && /usr/bin/python3.10 setup.py egg_info
+	cd /home/ons/ros2_ws/build/serial_motor_demo_msgs/ament_cmake_python/serial_motor_demo_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_serial_motor_demo_msgs_egg: CMakeFiles/ament_cmake_python_build_serial_motor_demo_msgs_egg
 ament_cmake_python_build_serial_motor_demo_msgs_egg: CMakeFiles/ament_cmake_python_build_serial_motor_demo_msgs_egg.dir/build.make

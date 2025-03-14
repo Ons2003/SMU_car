@@ -79,7 +79,7 @@ rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cp
 rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp: rosidl_adapter/serial_motor_demo_msgs/msg/MotorVels.idl
 rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp: rosidl_adapter/serial_motor_demo_msgs/msg/EncoderVals.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ons/ros2_ws/build/serial_motor_demo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/ons/ros2_ws/build/serial_motor_demo_msgs/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/ons/ros2_ws/build/serial_motor_demo_msgs/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
 rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp: rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp

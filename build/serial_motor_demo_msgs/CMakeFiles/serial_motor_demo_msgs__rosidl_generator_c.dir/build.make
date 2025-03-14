@@ -86,7 +86,7 @@ rosidl_generator_c/serial_motor_demo_msgs/msg/motor_command.h: rosidl_adapter/se
 rosidl_generator_c/serial_motor_demo_msgs/msg/motor_command.h: rosidl_adapter/serial_motor_demo_msgs/msg/MotorVels.idl
 rosidl_generator_c/serial_motor_demo_msgs/msg/motor_command.h: rosidl_adapter/serial_motor_demo_msgs/msg/EncoderVals.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ons/ros2_ws/build/serial_motor_demo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/ons/ros2_ws/build/serial_motor_demo_msgs/rosidl_generator_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/ons/ros2_ws/build/serial_motor_demo_msgs/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.h: rosidl_generator_c/serial_motor_demo_msgs/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.h

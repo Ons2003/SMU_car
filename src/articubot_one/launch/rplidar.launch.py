@@ -7,7 +7,7 @@ def generate_launch_description():
     return LaunchDescription([
 
         Node(
-            package='ydldiar',
+            package='ydlidar',
             executable='ydlidar_node',
             output='screen',
             """ parameters=[{

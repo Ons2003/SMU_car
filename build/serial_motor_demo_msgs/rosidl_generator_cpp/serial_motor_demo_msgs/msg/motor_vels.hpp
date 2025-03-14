@@ -7,5 +7,6 @@
 #include "serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp"
 #include "serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp"
 #include "serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp"
+#include "serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp"
 
 #endif  // SERIAL_MOTOR_DEMO_MSGS__MSG__MOTOR_VELS_HPP_
