@@ -1,1 +1,0 @@
-Invoking command in '/home/ons/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ons/ros2_ws/install/test_node:/home/ons/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/ons/ros2_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ons/ros2_ws/install/diffdrive_arduino

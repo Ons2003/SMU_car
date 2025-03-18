@@ -1,1 +1,0 @@
-Invoking command in '/home/ons/ros2_ws/build/test_node': PYTHONPATH=/home/ons/ros2_ws/build/test_node/prefix_override:/home/ons/ros2_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ons/ros2_ws/build/test_node/build

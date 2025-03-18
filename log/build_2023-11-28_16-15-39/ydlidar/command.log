@@ -1,1 +1,0 @@
-Invoking command in '/home/ons/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ons/ros2_ws/src/ydlidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/ons/ros2_ws/install/ydlidar
