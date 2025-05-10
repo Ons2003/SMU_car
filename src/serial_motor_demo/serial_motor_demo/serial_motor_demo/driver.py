@@ -17,11 +17,11 @@ class MotorDriver(Node):
         # Setup parameters
 
 
-        self.declare_parameter('serial_port', value="/dev/ttyACM0")
+        self.declare_parameter('serial_port', value="/dev/ttyAMA10")
         self.serial_port = self.get_parameter('serial_port').value
 
 
-        self.declare_parameter('baud_rate', value=9600)
+        self.declare_parameter('baud_rate', value=(57600))
         self.baud_rate = self.get_parameter('baud_rate').value
 
 
