@@ -11,7 +11,7 @@
                 <param name="device">/dev/ttyUSB1</param>
                 <param name="baud_rate">57600</param>
                 <param name="timeout_ms">2000</param>
-                <param name="enc_counts_per_rev">500</param>
+                <param name="enc_counts_per_rev">1500</param>
                 <param name="pid_p">20</param>
                 <param name="pid_d">12</param>
                 <param name="pid_i">0</param>
